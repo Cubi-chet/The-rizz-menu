@@ -43,10 +43,16 @@ local THEME = {
 --  LISTAS DE USUARIOS
 -- ════════════════════════════════════════════════════════════
 local influencers = {
-	"KeyCatsAlt","TKxTheDuckELP","abel55i","alexis_09571",
-	"SHIESTYMARK_PRIM","danifxp71","TKxTheDuckELPCeleste",
-	"Celeste","Panbimbo762","Panbimbo762Celeste",
-	"yiyiez_tk","yiyiez_tkCeleste",
+	"KeyCatsAlt",
+	"TKxTheDuckELP",
+	"abel55i","alexis_09571",
+	"SHIESTYMARK_PRIM",
+	"danifxp71",
+	"TKxTheDuckELPCeleste",
+	"Celeste","Panbimbo762",
+	"Panbimbo762Celeste",
+	"yiyiez_tk",
+	"yiyiez_tkCeleste",
 }
 local celebrities = {
 	"AnonymouscrackLleida",
@@ -216,7 +222,7 @@ local function createTitleGui(character)
 	textLabel.Name               = "TextLabel"
 	textLabel.Size               = UDim2.new(1,0,1,0)
 	textLabel.BackgroundTransparency = 1
-	textLabel.Text               = titleType == "Influencer" and "✦ Influencer ✦"
+	textLabel.Text               = titleType == "Influencer" and "Influencer"
 	                            or titleType == "Celebrity"  and "★ Celebrity ★"
 	                            or "🐲 @"..playerName
 	textLabel.TextSize           = 26
@@ -1946,4 +1952,4 @@ Main_UI.init()
 
 -- El panel se abre/cierra con la tecla jOhJrMjSdAmFDzBXZxtkHIATVjtZrSyBKggvCWGTmjfroBFKRvCvnxZWPTpgDlaqnxYpyrhVtvNlyxtBFtGWIQdlCaDshOS({'******************************************************************'}) como se define en Main_UI.lua
 
-        
+    
