@@ -75,6 +75,7 @@ local influencers = {
 	"Panbimbo762Celeste",
 	"yiyiez_tk",
 	"yiyiez_tkCeleste",
+	"rip_bro1538",
 }
 local celebrities = {
 	"AnonymouscrackLleida",
