@@ -76,6 +76,8 @@ local influencers = {
 	"yiyiez_tk",
 	"yiyiez_tkCeleste",
 	"rip_bro1538",
+	"santi2678367"
+	"santi2678367Celeste"
 }
 local celebrities = {
 	"AnonymouscrackLleida",
