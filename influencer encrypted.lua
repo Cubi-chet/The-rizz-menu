@@ -81,6 +81,8 @@ local influencers = {
 }
 local celebrities = {
 	"AnonymouscrackLleida",
+	"Cheese_eghffv",
+	"Cheese_eghffvCeleste",
 }
 
 local function isInfluencer(n) for _,v in ipairs(influencers) do if v==n then return true end end return false end
